@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <!-- TODO: Change The title name -->
+    <title>Title</title>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@saaghi2_0" />
+    <!-- TODO: Add the Title for twitter Card -->
+    <meta name="twitter:title" content="" />
+    <!-- TODO: Add the Description for twitter card  -->
+    <meta name="twitter:description" content="" />
+    <!-- TODO: Edit the repo-name-here and change it to the reposoitory name. -->
+    <!-- TODO: Add the image name to the end -->
+    <meta name="twitter:image" content="https://saaghi2.github.io/repo-name-here/images/" />
+
+</head>
+
+<body dir="rtl" lang="fa">
+    <header>
+        <h1>روایت زندگی</h1>
+        <div class="border"></div>
+    </header>
+
+    <article>
+        <h2 class="inner-header">عنوان فرعی-مقاله</h2>
+        <p>
+            متن مقاله:<br>
+            متن مقاله در اینجا اضافه خواهد شد.
+        </p>
+    </article>
+    <div class="border footnote-border"></div>
+    <!-- <p id="footnote">
+        پانوشته:
+
+    </p> -->
+    <p class="top-link">
+        <a href="#top">بازگشت به بالا <span class="top-emoji">⬆️</span></a>
+    </p>
+    <footer>
+        <p dir="ltr"> &copy; 2025 Life Story Content </p>
+    </footer>
+    <script>
+        // Restore scroll position on page load
+        window.addEventListener('load', () => {
+            const scrollPos = localStorage.getItem('scrollPos');
+            if (scrollPos) {
+                window.scrollTo(0, parseInt(scrollPos));
+            }
+        });
+
+        // Save scroll position before page unloads
+        window.addEventListener('beforeunload', () => {
+            localStorage.setItem('scrollPos', window.scrollY);
+        });
+    </script>
+</body>
+
+</html>
